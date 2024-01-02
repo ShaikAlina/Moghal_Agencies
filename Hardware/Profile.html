@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo img.jpg">
+    <link rel="stylesheet" href="../Hardware/Home.css">
+    <link rel="stylesheet" href="Profile.css">
+
+</head>
+<body>
+
+ 
+  <section class="header_wrapped ">
+
+    <nav class="navbar navbar-expand-lg navbar-dark pt-0 pb-1  navback container-fluid">
+    
+        <div class=" box container-fluid navback">
+    
+            <a class="navbar-brand fst-italic fw-bolder  d-block" href="Home.html">
+              <img src="../images/logo img.jpg" alt="Moghal Agencies image"
+                class=" logo me-3 ms-5 mt-sm-0 rounded-circle justify-content-center fst-italic text-muted "><b class="text-dark fst-italic ">Bootley</b></a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-lg-0  justify-content-center">
+    
+                
+                <form class="d-inline-block">
+                  <div class=" Search-bar pe-sm-1 pe-lg-5 input-group">
+                    <input type="text" class="form-control input form-control-sm" placeholder="Search.." aria-label="Search"
+                      aria-describedby="button-addon2">
+                    <button class="btn Search-bg  " type="button" id="button-addon2"><i
+                        class="bi bi-search text-white pb-1"></i></button>
+                  </div>
+                </form >
+    
+                <li href="#" class="nav-item dropdown">
+                  <a class="  nav-link btn btn-md dropdown-toggle categories mt-2 " data-bs-toggle="dropdown" href="#"
+                    role="button" aria-expanded="false"><i class="bi bi-border-width text-black-50 pe-1"></i><b class="text-black-50 fst-italic">All Categories</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#Gardening" target="_self" >Gardening</a></li>
+                    <li><a class="dropdown-item" href="#" id="Plumbing">Plumbing</a></li>
+                    <li><a class="dropdown-item" href="#">Plumbing</a></li>
+                    <li><a class="dropdown-item" href="#">Plumbing</a></li>
+                    <li><a class="dropdown-item" href="#">Plumbing</a></li>
+                    <li><a class="dropdown-item" href="#">Plumbing</a></li>
+    
+                  </ul>
+            
+                <li class="nav-item ">
+                  <button class=" btn btn-md "><a href="#" class="nav-link "><i class="bi bi-bag-fill text-black-50"></i>
+                        <b class="text-black-50 fst-italic shop">shop</b></a>
+                      </button>
+                </li>
+                <li class="nav-item ">
+                  <button class=" btn btn-md "><a href="#" class="nav-link "><i class="bi bi-cart-fill text-black-50"></i>
+                        <b class="text-black-50 fst-italic">Cart</b></a>
+                      </button>
+                </li>
+    
+                <li class="nav-item ">
+                  <button  class=" heart btn btn-md  "><a href="#" class="nav-link"><i
+                        class=" bi bi-cart bi-heart-fill text-black-50 pe-1"></i><b class="text-black-50 fst-italic">Wishlist</b></a>
+                      </button>
+                </li>
+                <li href="#" class="nav-item dropdown">
+                  <a class="  nav-link btn btn-md dropdown-toggle  shadow rounded-pill account " data-bs-toggle="dropdown" href="#"
+                    role="button" aria-expanded="false"><i class="bi bi-person-circle text-black-50 pe-1"></i><b class="text-black-50 fst-italic">Account</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">REGISTER</a></li>
+                    <li><a class="dropdown-item" href="#">LOGIN</a></li>
+                  </ul>
+    
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+        </div>
+    
+      </nav>
+    
+  </section>
+
+  <section>
+    <div class="row ms-lg-3">
+      <div class="col1 col-11  col-sm-5 col-md-4 col-lg-4">
+        <div class="card m-2">
+          <div class="card-header ">
+            <h3>Profile</h3>
+          </div>
+          <img src="../images/profile.jpg" alt="" class="card-img-top image rounded-circle" >
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <label for="name" class="me-2">Name</label>
+                <input type="text" placeholder="Enter your name" name="name" id="name" class="me-2 rounded-pill">
+              </li>
+              <li class="list-group-item">
+                <label for="number" >Phone no.</label>
+                <input type="text" placeholder="Enter your number"name="number" id="number" class="me-2 rounded-pill ">
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a href="#" class="btn btn-outline-light">Edit profile</a>
+            </div>
+        </div>
+        </div>
+      <div class="col2 mt-2 me-2 col-12 col-sm-6 col-md-7 bg-mute ">
+        <label for="address"><b>Address</b></label>
+        <label for="default" class="float-end btn btn-sm btn-outline-secondary text-black-50">default</label>
+        <input type="text" value=""class="h-75 w-100 rounded-3" placeholder="Address..">
+        <label for="add" class="float-end btn btn-sm btn-outline-secondary text-black-50">Add address</label>
+        <input type="text" value=""class="h-75 w-100 rounded-3" placeholder="Add new address..">
+
+      </div>
+    </div>
+    
+  </section>
+
+
+
+<!--     
+  <section>
+      <div class="row">
+        <div class=" col1 offset-1 col-4">
+          <div class="card-header">
+            <h2 class="text-center">Profile</h2></div>
+           <div class="card" style="width: 15rem;">
+            <img src="../images/profile.jpg" alt="your image here" class="image">
+           <div class="card-body">
+            <ul class="list-group">
+            <li>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Enter your name">
+            </li>
+            <li>
+              <label for="password">Phone no.</label>
+              <input type="number" name="number">
+            </li>
+            </ul>
+           </div>
+           </div>
+           <div class="carf-footer">
+            <a href="#" class="btn btn-primary">Edit profile</a>
+           </div>
+       
+  </section> -->
+
+  
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
