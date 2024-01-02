@@ -124,7 +124,7 @@ padding-bottom: 300px;
  list-style-type: none;
 }
 .g-bg{
-    background: url("../images/garden.jpg");
+    background: url("../Hardware/images/garden.jpg");
     background-blend-mode: lighten;
     height: 200px;
     width: 300px;
